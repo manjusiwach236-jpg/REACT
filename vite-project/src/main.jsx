@@ -17,6 +17,8 @@ import Effect from './Pages/Effect.jsx';
 import Products from './Pages/Products.jsx';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { App } from 'antd';
+import App from './App.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -27,6 +29,7 @@ createRoot(document.getElementById('root')).render(
 
         <BrowserRouter>
           <Routes>
+
             <Route path='/' element={<Home />} />
             <Route path='/login' element={<Login />} />
             <Route path='/register' element={<Register />} />
@@ -34,6 +37,7 @@ createRoot(document.getElementById('root')).render(
             <Route path='/products' element={<Products />} />
             <Route path='/effect' element={<Effect />} />
             <Route path='/navbar' element={<Navbar />} />
+            <Route path='/app' element={<App />} />
           </Routes>
         </BrowserRouter>
         <Footer />
