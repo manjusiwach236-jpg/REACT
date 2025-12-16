@@ -4,7 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Navigate, useNavigate } from 'react-router'
-import Footer from './Components/Footer'
+// import Footer from './Components/Footer'
 
 
 
@@ -26,7 +26,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>React good</h1>
+      <h1>ffffffff</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
